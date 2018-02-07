@@ -15,9 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "psr/log": "2.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "zvsv\\common-logger\\": "/"

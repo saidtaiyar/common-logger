@@ -2,6 +2,8 @@
 
 namespace zvsv\commonLogger;
 
+require_once 'Parametrs.php';
+
 class EmailSender {
 
     public $smtp_username;

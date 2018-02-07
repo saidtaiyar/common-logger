@@ -2,6 +2,11 @@
 
 namespace zvsv\commonLogger;
 
+require_once 'Parametrs.php';
+require_once 'Pool.php';
+require_once 'EmailSender.php';
+require_once 'Telegram.php';
+
 /**
  * Class Logger
  * (Singleton)

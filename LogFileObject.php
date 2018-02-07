@@ -2,6 +2,9 @@
 
 namespace zvsv\commonLogger;
 
+require_once 'Object.php';
+require_once 'Helper.php';
+
 /**
  * The class makes a object which does the next:
  * - open a file or create a file and writes to this file some message

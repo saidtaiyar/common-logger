@@ -1,8 +1,6 @@
 <?php
 
-namespace zvsv\Logger;
-
-//require 'LogFileObject.php';
+namespace zvsv\commonLogger;
 
 /**
  * The factory makes objects of log files and return them

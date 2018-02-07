@@ -1,6 +1,6 @@
 <?php
 
-namespace zvsv\Logger;
+namespace zvsv\commonLogger;
 
 interface Object
 {

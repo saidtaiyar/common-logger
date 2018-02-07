@@ -1,7 +1,6 @@
 <?php
-//declare(strict_types=1);
 
-namespace zvsv\Logger;
+namespace zvsv\commonLogger;
 
 /**
  * This is storage where parameters plug in.

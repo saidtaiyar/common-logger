@@ -1,8 +1,6 @@
 <?php
 
-namespace zvsv\Logger;
-
-//require_once 'Parametrs.php';
+namespace zvsv\commonLogger;
 
 class Telegram
 {

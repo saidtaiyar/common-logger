@@ -1,12 +1,6 @@
 <?php
-//declare(strict_types=1);
 
-namespace zvsv\Logger;
-
-/*require 'Parametrs.php';
-require 'Pool.php';
-require 'EmailSender.php';
-require 'Telegram.php';*/
+namespace zvsv\commonLogger;
 
 /**
  * Class Logger

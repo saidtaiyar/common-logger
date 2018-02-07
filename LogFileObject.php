@@ -1,10 +1,15 @@
 <?php
 
-namespace zvsv\Logger;
+namespace zvsv\commonLogger;
 
-/*require 'Object.php';
-require 'Helper.php';*/
-
+/**
+ * The class makes a object which does the next:
+ * - open a file or create a file and writes to this file some message
+ * - merge the messages and keep them
+ *
+ * Class LogFileObject
+ * @package zvsv\commonLogger
+ */
 class LogFileObject implements Object
 {
     protected $name; //name file
@@ -22,7 +27,7 @@ class LogFileObject implements Object
      * Write to file
      */
     public function write() {
-        $size = Parameters::get('max_file_size');
+        $size = Parameters::get('max_file_size'); //max size file
         $root = Parameters::get('files_root');
         $file = $root.$this->name;
         $file_path_arr = explode('/', $file);

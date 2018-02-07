@@ -1,8 +1,6 @@
 <?php
 
-namespace zvsv\Logger;
-
-//require 'FactoryObjects.php';
+namespace zvsv\commonLogger;
 
 /**
  * This class is a pool of the objects. You can get some object by hash.

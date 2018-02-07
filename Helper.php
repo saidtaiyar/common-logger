@@ -1,6 +1,6 @@
 <?php
 
-namespace zvsv\Logger;
+namespace zvsv\commonLogger;
 
 /**
  * The class contains some methods for help of other code
